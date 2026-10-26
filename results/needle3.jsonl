@@ -1,0 +1,120 @@
+{"id": "support-01", "ms": 1366.4927082136273, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-02", "ms": 224.35679100453854, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-03", "ms": 261.0639166086912, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-04", "ms": 542.2207089141011, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-05", "ms": 173.6284578219056, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-06", "ms": 220.211417414248, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-07", "ms": 545.3773746266961, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-08", "ms": 528.2185841351748, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-09", "ms": 913.8940833508968, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-10", "ms": 313.9454582706094, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-11", "ms": 541.0914169624448, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-12", "ms": 521.8714587390423, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-13", "ms": 277.63908449560404, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-14", "ms": 176.23695824295282, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-15", "ms": 530.3262919187546, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-16", "ms": 540.6853752210736, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-17", "ms": 257.41183292120695, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-18", "ms": 538.8710843399167, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-19", "ms": 531.0474159196019, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-20", "ms": 242.61837545782328, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-21", "ms": 539.3388336524367, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-22", "ms": 491.06316547840834, "probs": {"department": {"billing": 0.0, "shipping": 1.0, "returns": 0.0, "account": 0.0, "product": 0.0, "other": 0.0}, "refund": {"true": 1.0, "false": 0.0}, "urgency": {"0": 0.0, "1": 0.0, "2": 1.0}, "churn": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "support-23", "ms": 185.86604110896587, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-24", "ms": 556.9918332621455, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-25", "ms": 538.4541666135192, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-26", "ms": 560.1945007219911, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-27", "ms": 523.6109169200063, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-28", "ms": 536.2296253442764, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-29", "ms": 533.8632501661777, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-30", "ms": 301.10575072467327, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-31", "ms": 30.155041255056858, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-32", "ms": 176.11149977892637, "probs": {"department": {"billing": 0.0, "shipping": 1.0, "returns": 0.0, "account": 0.0, "product": 0.0, "other": 0.0}, "refund": {"true": 1.0, "false": 0.0}, "urgency": {"0": 1.0, "1": 0.0, "2": 0.0}, "churn": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "support-33", "ms": 186.32529024034739, "probs": {"department": {"billing": 0.0, "shipping": 1.0, "returns": 0.0, "account": 0.0, "product": 0.0, "other": 0.0}, "refund": {"true": 1.0, "false": 0.0}, "urgency": {"0": 1.0, "1": 0.0, "2": 0.0}, "churn": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "support-34", "ms": 62.98504211008549, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-35", "ms": 27.39620767533779, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-36", "ms": 29.749874956905842, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-37", "ms": 167.04674996435642, "probs": {"department": {"billing": 0.0, "shipping": 0.0, "returns": 0.0, "account": 1.0, "product": 0.0, "other": 0.0}, "refund": {"true": 1.0, "false": 0.0}, "urgency": {"0": 1.0, "1": 0.0, "2": 0.0}, "churn": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "support-38", "ms": 278.348833322525, "probs": {"department": {"billing": 0.0, "shipping": 1.0, "returns": 0.0, "account": 0.0, "product": 0.0, "other": 0.0}, "refund": {"true": 1.0, "false": 0.0}, "urgency": {"0": 0.0, "1": 0.0, "2": 1.0}, "churn": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "support-39", "ms": 78.90800014138222, "probs": {"department": {}, "refund": {}, "urgency": {}, "churn": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'department'"}
+{"id": "support-40", "ms": 178.26991714537144, "probs": {"department": {"billing": 0.0, "shipping": 1.0, "returns": 0.0, "account": 0.0, "product": 0.0, "other": 0.0}, "refund": {"true": 1.0, "false": 0.0}, "urgency": {"0": 1.0, "1": 0.0, "2": 0.0}, "churn": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "invoice-01", "ms": 337.1554175391793, "probs": {"action": {"approve": 0.0, "reject": 1.0, "escalate": 0.0}, "amount_match": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "invoice-02", "ms": 334.37033370137215, "probs": {"action": {"approve": 0.0, "reject": 1.0, "escalate": 0.0}, "amount_match": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "invoice-03", "ms": 193.28191597014666, "probs": {"action": {"approve": 0.0, "reject": 1.0, "escalate": 0.0}, "amount_match": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "invoice-04", "ms": 204.43699974566698, "probs": {"action": {"approve": 0.0, "reject": 1.0, "escalate": 0.0}, "amount_match": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "invoice-05", "ms": 141.7499165982008, "probs": {"action": {"approve": 0.0, "reject": 1.0, "escalate": 0.0}, "amount_match": {"true": 0.0, "false": 1.0}}, "error": null}
+{"id": "invoice-06", "ms": 195.6808753311634, "probs": {"action": {"approve": 0.0, "reject": 1.0, "escalate": 0.0}, "amount_match": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "invoice-07", "ms": 194.03570890426636, "probs": {"action": {"approve": 0.0, "reject": 1.0, "escalate": 0.0}, "amount_match": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "invoice-08", "ms": 139.9204581975937, "probs": {"action": {"approve": 0.0, "reject": 1.0, "escalate": 0.0}, "amount_match": {"true": 0.0, "false": 1.0}}, "error": null}
+{"id": "invoice-09", "ms": 143.3975836262107, "probs": {"action": {"approve": 0.0, "reject": 1.0, "escalate": 0.0}, "amount_match": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "invoice-10", "ms": 186.14704255014658, "probs": {"action": {"approve": 0.0, "reject": 1.0, "escalate": 0.0}, "amount_match": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "invoice-11", "ms": 197.81124964356422, "probs": {"action": {"approve": 0.0, "reject": 1.0, "escalate": 0.0}, "amount_match": {"true": 0.0, "false": 1.0}}, "error": null}
+{"id": "invoice-12", "ms": 142.0880425721407, "probs": {"action": {"approve": 0.0, "reject": 1.0, "escalate": 0.0}, "amount_match": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "invoice-13", "ms": 195.53975015878677, "probs": {"action": {"approve": 0.0, "reject": 1.0, "escalate": 0.0}, "amount_match": {"true": 0.0, "false": 1.0}}, "error": null}
+{"id": "invoice-14", "ms": 216.31595771759748, "probs": {"action": {}, "amount_match": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'action'"}
+{"id": "invoice-15", "ms": 192.9961247369647, "probs": {"action": {"approve": 0.0, "reject": 1.0, "escalate": 0.0}, "amount_match": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "invoice-16", "ms": 194.11899987608194, "probs": {"action": {"approve": 0.0, "reject": 1.0, "escalate": 0.0}, "amount_match": {"true": 0.0, "false": 1.0}}, "error": null}
+{"id": "invoice-17", "ms": 214.26912490278482, "probs": {"action": {"approve": 0.0, "reject": 1.0, "escalate": 0.0}, "amount_match": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "invoice-18", "ms": 208.01012497395277, "probs": {"action": {"approve": 0.0, "reject": 1.0, "escalate": 0.0}, "amount_match": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "invoice-19", "ms": 201.62179041653872, "probs": {"action": {"approve": 0.0, "reject": 1.0, "escalate": 0.0}, "amount_match": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "invoice-20", "ms": 194.88979130983353, "probs": {"action": {"approve": 0.0, "reject": 1.0, "escalate": 0.0}, "amount_match": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "helpdesk-01", "ms": 351.27741657197475, "probs": {"tool": {"reset_password": 0.0, "unlock_account": 0.0, "install_software": 0.0, "hardware_repair": 1.0, "vpn_support": 0.0, "human_agent": 0.0}}, "error": null}
+{"id": "helpdesk-02", "ms": 238.26670739799738, "probs": {"tool": {"reset_password": 0.0, "unlock_account": 0.0, "install_software": 0.0, "hardware_repair": 1.0, "vpn_support": 0.0, "human_agent": 0.0}}, "error": null}
+{"id": "helpdesk-03", "ms": 44.57816667854786, "probs": {"tool": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'tool'"}
+{"id": "helpdesk-04", "ms": 125.38804113864899, "probs": {"tool": {"reset_password": 0.0, "unlock_account": 0.0, "install_software": 0.0, "hardware_repair": 1.0, "vpn_support": 0.0, "human_agent": 0.0}}, "error": null}
+{"id": "helpdesk-05", "ms": 135.63529215753078, "probs": {"tool": {"reset_password": 0.0, "unlock_account": 0.0, "install_software": 0.0, "hardware_repair": 1.0, "vpn_support": 0.0, "human_agent": 0.0}}, "error": null}
+{"id": "helpdesk-06", "ms": 166.63524974137545, "probs": {"tool": {"reset_password": 0.0, "unlock_account": 0.0, "install_software": 0.0, "hardware_repair": 1.0, "vpn_support": 0.0, "human_agent": 0.0}}, "error": null}
+{"id": "helpdesk-07", "ms": 140.81758446991444, "probs": {"tool": {"reset_password": 0.0, "unlock_account": 0.0, "install_software": 0.0, "hardware_repair": 1.0, "vpn_support": 0.0, "human_agent": 0.0}}, "error": null}
+{"id": "helpdesk-08", "ms": 153.88862509280443, "probs": {"tool": {"reset_password": 0.0, "unlock_account": 0.0, "install_software": 0.0, "hardware_repair": 1.0, "vpn_support": 0.0, "human_agent": 0.0}}, "error": null}
+{"id": "helpdesk-09", "ms": 201.44695974886417, "probs": {"tool": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'tool'"}
+{"id": "helpdesk-10", "ms": 76.8453748896718, "probs": {"tool": {"reset_password": 0.0, "unlock_account": 0.0, "install_software": 0.0, "hardware_repair": 1.0, "vpn_support": 0.0, "human_agent": 0.0}}, "error": null}
+{"id": "helpdesk-11", "ms": 195.68416755646467, "probs": {"tool": {"reset_password": 0.0, "unlock_account": 0.0, "install_software": 0.0, "hardware_repair": 1.0, "vpn_support": 0.0, "human_agent": 0.0}}, "error": null}
+{"id": "helpdesk-12", "ms": 145.02991549670696, "probs": {"tool": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'tool'"}
+{"id": "helpdesk-13", "ms": 26.661459356546402, "probs": {"tool": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'tool'"}
+{"id": "helpdesk-14", "ms": 67.54462514072657, "probs": {"tool": {"reset_password": 0.0, "unlock_account": 0.0, "install_software": 0.0, "hardware_repair": 1.0, "vpn_support": 0.0, "human_agent": 0.0}}, "error": null}
+{"id": "helpdesk-15", "ms": 56.67766556143761, "probs": {"tool": {"reset_password": 0.0, "unlock_account": 0.0, "install_software": 1.0, "hardware_repair": 0.0, "vpn_support": 0.0, "human_agent": 0.0}}, "error": null}
+{"id": "helpdesk-16", "ms": 63.11570852994919, "probs": {"tool": {"reset_password": 0.0, "unlock_account": 0.0, "install_software": 0.0, "hardware_repair": 1.0, "vpn_support": 0.0, "human_agent": 0.0}}, "error": null}
+{"id": "helpdesk-17", "ms": 45.26950046420097, "probs": {"tool": {"reset_password": 0.0, "unlock_account": 1.0, "install_software": 0.0, "hardware_repair": 0.0, "vpn_support": 0.0, "human_agent": 0.0}}, "error": null}
+{"id": "helpdesk-18", "ms": 58.418791741132736, "probs": {"tool": {"reset_password": 0.0, "unlock_account": 0.0, "install_software": 0.0, "hardware_repair": 1.0, "vpn_support": 0.0, "human_agent": 0.0}}, "error": null}
+{"id": "helpdesk-19", "ms": 492.233625613153, "probs": {"tool": {"reset_password": 0.0, "unlock_account": 0.0, "install_software": 0.0, "hardware_repair": 1.0, "vpn_support": 0.0, "human_agent": 0.0}}, "error": null}
+{"id": "helpdesk-20", "ms": 42.09841601550579, "probs": {"tool": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'tool'"}
+{"id": "rag-01", "ms": 186.07183266431093, "probs": {"grounded": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "rag-02", "ms": 530.1649598404765, "probs": {"grounded": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "rag-03", "ms": 230.8277916163206, "probs": {"grounded": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "rag-04", "ms": 247.98258300870657, "probs": {"grounded": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "rag-05", "ms": 125.257832929492, "probs": {"grounded": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "rag-06", "ms": 513.6371674016118, "probs": {"grounded": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "rag-07", "ms": 121.80479150265455, "probs": {"grounded": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "rag-08", "ms": 212.99054194241762, "probs": {"grounded": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "rag-09", "ms": 140.27108252048492, "probs": {"grounded": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "rag-10", "ms": 138.85116763412952, "probs": {"grounded": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "rag-11", "ms": 108.5519166663289, "probs": {"grounded": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'grounded'"}
+{"id": "rag-12", "ms": 120.15745788812637, "probs": {"grounded": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "rag-13", "ms": 99.66474957764149, "probs": {"grounded": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "rag-14", "ms": 91.1087915301323, "probs": {"grounded": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "rag-15", "ms": 102.09633316844702, "probs": {"grounded": {"true": 0.0, "false": 1.0}}, "error": null}
+{"id": "rag-16", "ms": 64.9231243878603, "probs": {"grounded": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "rag-17", "ms": 513.6434575542808, "probs": {"grounded": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "rag-18", "ms": 125.05945935845375, "probs": {"grounded": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'grounded'"}
+{"id": "rag-19", "ms": 135.59004198759794, "probs": {"grounded": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "rag-20", "ms": 198.43070954084396, "probs": {"grounded": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "injection-01", "ms": 558.0499591305852, "probs": {"injection": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "injection-02", "ms": 67.04116612672806, "probs": {"injection": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'injection'"}
+{"id": "injection-03", "ms": 22.169708274304867, "probs": {"injection": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'injection'"}
+{"id": "injection-04", "ms": 191.43108278512955, "probs": {"injection": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "injection-05", "ms": 462.5249579548836, "probs": {"injection": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "injection-06", "ms": 482.07933362573385, "probs": {"injection": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "injection-07", "ms": 27.81445812433958, "probs": {"injection": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'injection'"}
+{"id": "injection-08", "ms": 78.02612520754337, "probs": {"injection": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'injection'"}
+{"id": "injection-09", "ms": 176.19845736771822, "probs": {"injection": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "injection-10", "ms": 23.47920835018158, "probs": {"injection": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'injection'"}
+{"id": "injection-11", "ms": 43.201458640396595, "probs": {"injection": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'injection'"}
+{"id": "injection-12", "ms": 193.06825008243322, "probs": {"injection": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "injection-13", "ms": 52.323625423014164, "probs": {"injection": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'injection'"}
+{"id": "injection-14", "ms": 17.16716680675745, "probs": {"injection": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'injection'"}
+{"id": "injection-15", "ms": 473.76450058072805, "probs": {"injection": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "injection-16", "ms": 130.94912469387054, "probs": {"injection": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "injection-17", "ms": 21.900749765336514, "probs": {"injection": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'injection'"}
+{"id": "injection-18", "ms": 155.4297497496009, "probs": {"injection": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "injection-19", "ms": 150.0368332490325, "probs": {"injection": {"true": 1.0, "false": 0.0}}, "error": null}
+{"id": "injection-20", "ms": 31.072041019797325, "probs": {"injection": {}}, "error": "AttributeError: 'NoneType' object has no attribute 'injection'"}

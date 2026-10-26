@@ -1,0 +1,10 @@
+{
+ "model": "d3-edge",
+ "repo": "vllm-sr/d3-edge",
+ "device": "mps",
+ "load_s": 4.2170020416378975,
+ "peak_rss_gib": 1.0677490234375,
+ "peak_mps_gib": 1.3638458251953125,
+ "has_probabilities": true,
+ "n": 120
+}

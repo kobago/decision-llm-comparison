@@ -1,0 +1,10 @@
+{
+ "model": "d3-mini",
+ "repo": "vllm-sr/d3-mini",
+ "device": "mps",
+ "load_s": 8.650048041716218,
+ "peak_rss_gib": 0.7529144287109375,
+ "peak_mps_gib": 9.889236450195312,
+ "has_probabilities": true,
+ "n": 120
+}

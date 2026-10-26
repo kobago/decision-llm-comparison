@@ -1,0 +1,10 @@
+{
+ "model": "laya",
+ "repo": "convaiinnovations/laya",
+ "device": "cpu",
+ "load_s": 0.07331779226660728,
+ "peak_rss_gib": 3.3475799560546875,
+ "peak_mps_gib": 3.2969818115234375,
+ "has_probabilities": true,
+ "n": 120
+}

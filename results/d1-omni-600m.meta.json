@@ -1,0 +1,10 @@
+{
+ "model": "d1-omni-600m",
+ "repo": "LiquidAI/d1-omni-600M",
+ "device": "mps",
+ "load_s": 4.3903815830126405,
+ "peak_rss_gib": 3.6195831298828125,
+ "peak_mps_gib": 1.2032470703125,
+ "has_probabilities": true,
+ "n": 120
+}

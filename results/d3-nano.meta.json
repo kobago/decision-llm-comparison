@@ -1,0 +1,10 @@
+{
+ "model": "d3-nano",
+ "repo": "vllm-sr/d3-nano",
+ "device": "mps",
+ "load_s": 6.311811625026166,
+ "peak_rss_gib": 1.0941009521484375,
+ "peak_mps_gib": 4.6372833251953125,
+ "has_probabilities": true,
+ "n": 120
+}

@@ -1,0 +1,19 @@
+[project]
+name = "decision-llm-comparison"
+version = "0.1.0"
+description = "Compare open-weight decision models on Apple Silicon"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.15.0",
+    "av>=19.0.2",
+    "cactus-needle>=3.2.8",
+    "huggingface-hub[hf-xet]>=2.3.0",
+    "laya>=0.4.15",
+    "peft>=0.21.2",
+    "pillow>=13.0.0",
+    "soundfile>=0.14.0",
+    "strands-decider>=0.2.0",
+    "torch>=2.14.1",
+    "torchvision>=0.29.1",
+    "transformers>=5.17",
+]

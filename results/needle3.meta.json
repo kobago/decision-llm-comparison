@@ -1,0 +1,10 @@
+{
+ "model": "needle3",
+ "repo": "Cactus-Compute/needle3",
+ "device": "cpu",
+ "load_s": 0.020903250202536583,
+ "peak_rss_gib": 0.3198699951171875,
+ "peak_mps_gib": 0.0003662109375,
+ "has_probabilities": false,
+ "n": 120
+}

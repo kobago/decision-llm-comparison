@@ -1,0 +1,10 @@
+{
+ "model": "nimble-9b",
+ "repo": "bespokelabs/Bespoke-Nimble-9B",
+ "device": "mps",
+ "load_s": 23.00524574983865,
+ "peak_rss_gib": 0.7032318115234375,
+ "peak_mps_gib": 18.983291625976562,
+ "has_probabilities": true,
+ "n": 120
+}

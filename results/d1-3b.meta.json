@@ -1,0 +1,10 @@
+{
+ "model": "d1-3b",
+ "repo": "LiquidAI/d1-3B",
+ "device": "mps",
+ "load_s": 7.181457458995283,
+ "peak_rss_gib": 0.7541046142578125,
+ "peak_mps_gib": 6.8160400390625,
+ "has_probabilities": true,
+ "n": 120
+}

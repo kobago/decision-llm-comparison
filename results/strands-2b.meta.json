@@ -1,0 +1,10 @@
+{
+ "model": "strands-2b",
+ "repo": "StrandsAgents/strands-decider-2B-hobson-v19",
+ "device": "mps",
+ "load_s": 5.8360484996810555,
+ "peak_rss_gib": 1.0618438720703125,
+ "peak_mps_gib": 4.1623687744140625,
+ "has_probabilities": true,
+ "n": 120
+}

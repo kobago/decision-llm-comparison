@@ -1,0 +1,10 @@
+{
+ "model": "d3-lite",
+ "repo": "vllm-sr/d3-lite",
+ "device": "mps",
+ "load_s": 4.680434917099774,
+ "peak_rss_gib": 1.102203369140625,
+ "peak_mps_gib": 2.2779083251953125,
+ "has_probabilities": true,
+ "n": 120
+}

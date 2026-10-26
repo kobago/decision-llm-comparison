@@ -1,0 +1,10 @@
+{
+ "model": "d3-flash",
+ "repo": "vllm-sr/d3-flash",
+ "device": "mps",
+ "load_s": 13.038240999914706,
+ "peak_rss_gib": 1.1695556640625,
+ "peak_mps_gib": 16.857986450195312,
+ "has_probabilities": true,
+ "n": 120
+}
