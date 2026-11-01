@@ -1,0 +1,48 @@
+[
+ {
+  "model": "d1-2b",
+  "accuracy": 0.95,
+  "brier": 0.08706039116546452,
+  "ece": 0.02259209618908974,
+  "task_accuracy": {
+   "helpdesk": 1,
+   "injection": 0.85,
+   "invoice": 0.9,
+   "rag": 1,
+   "support": 0.9625
+  },
+  "failures": 0,
+  "n_questions": 260,
+  "p50_ms": 144.0261979951174,
+  "p95_ms": 289.73201599510503,
+  "repo": "LiquidAI/d1-2B",
+  "device": "cuda",
+  "load_s": 3.3756612010038225,
+  "peak_rss_gib": 4.471988677978516,
+  "peak_mps_gib": 5.0625,
+  "has_probabilities": true
+ },
+ {
+  "model": "d1-3b",
+  "accuracy": 0.9461538461538461,
+  "brier": 0.08921574854253465,
+  "ece": 0.03405122111378828,
+  "task_accuracy": {
+   "helpdesk": 1,
+   "injection": 0.85,
+   "invoice": 0.9,
+   "rag": 1,
+   "support": 0.95625
+  },
+  "failures": 0,
+  "n_questions": 260,
+  "p50_ms": 231.05398599727778,
+  "p95_ms": 460.73566569466493,
+  "repo": "LiquidAI/d1-3B",
+  "device": "cuda",
+  "load_s": 3.563293066996266,
+  "peak_rss_gib": 6.714412689208984,
+  "peak_mps_gib": 5.947265625,
+  "has_probabilities": true
+ }
+]

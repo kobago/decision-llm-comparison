@@ -1,0 +1,10 @@
+{
+ "model": "d1-3b",
+ "repo": "LiquidAI/d1-3B",
+ "device": "cuda",
+ "load_s": 3.563293066996266,
+ "peak_rss_gib": 6.714412689208984,
+ "peak_mps_gib": 5.947265625,
+ "has_probabilities": true,
+ "n": 120
+}

@@ -9,12 +9,14 @@ Latency is per record (all questions of a record in one call), skipping the firs
 """
 
 import json
+import os
 import statistics
 import sys
 from collections import defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+RESULTS = ROOT / os.environ.get("BENCH_RESULTS", "results")
 WARMUP = 3
 
 
@@ -42,8 +44,8 @@ def ece(pairs, bins=10):
 
 
 def score_model(name, records):
-    rows = [json.loads(line) for line in (ROOT / "results" / f"{name}.jsonl").open()]
-    meta = json.loads((ROOT / "results" / f"{name}.meta.json").read_text())
+    rows = [json.loads(line) for line in (RESULTS / f"{name}.jsonl").open()]
+    meta = json.loads((RESULTS / f"{name}.meta.json").read_text())
     by_id = {r["id"]: r for r in rows}
     per_task = defaultdict(list)  # task -> [(correct, brier, conf)]
     failures = 0
@@ -80,9 +82,9 @@ def score_model(name, records):
 
 def main():
     records = [json.loads(line) for line in (ROOT / "data" / "eval.jsonl").open()]
-    names = sys.argv[1:] or sorted(p.name.removesuffix(".meta.json") for p in (ROOT / "results").glob("*.meta.json"))
+    names = sys.argv[1:] or sorted(p.name.removesuffix(".meta.json") for p in RESULTS.glob("*.meta.json"))
     summary = sorted((score_model(n, records) for n in names), key=lambda s: -s["accuracy"])
-    (ROOT / "results" / "summary.json").write_text(json.dumps(summary, indent=1, ensure_ascii=False))
+    (RESULTS / "summary.json").write_text(json.dumps(summary, indent=1, ensure_ascii=False))
     tasks = list(summary[0]["task_accuracy"])
     head = ["model", "acc", "brier", "ece", *tasks, "fail", "p50 ms", "p95 ms", "mem GiB", "device"]
     print("| " + " | ".join(head) + " |")
