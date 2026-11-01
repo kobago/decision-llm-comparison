@@ -13,6 +13,7 @@ from pathlib import Path
 from typing import Any, Literal
 
 ROOT = Path(__file__).resolve().parent.parent
+RESULTS = ROOT / os.environ.get("BENCH_RESULTS", "results")
 
 
 def state_text(state: Any) -> str:
@@ -32,10 +33,17 @@ def normalise_answers(answers: dict, questions: dict) -> dict[str, dict[str, flo
     return out
 
 
+def sync(torch, device: str):
+    if device == "cuda":
+        torch.cuda.synchronize()
+    elif device == "mps":
+        torch.mps.synchronize()
+
+
 class SystemOneHF:
     """d1 / d3: transformers AutoModel with remote code exposing system_one()."""
 
-    device = "mps"
+    device = os.environ.get("BENCH_DEVICE", "mps")
 
     def __init__(self, repo: str, dtype: str = "bfloat16"):
         import torch
@@ -48,7 +56,7 @@ class SystemOneHF:
     def __call__(self, state, questions):
         with self.torch.inference_mode():
             out = self.model.system_one(state=state, questions=questions)
-        self.torch.mps.synchronize()
+        sync(self.torch, self.device)
         return normalise_answers(out["answers"], questions)
 
 
@@ -181,6 +189,7 @@ MODELS = {
     "strands-2b": (Strands, "StrandsAgents/strands-decider-2B-hobson-v19", {}),
     "laya": (Laya, "convaiinnovations/laya", {}),
     "needle3": (Needle, "Cactus-Compute/needle3", {}),
+    "d1-2b": (SystemOneHF, "LiquidAI/d1-2B", {}),
     "d1-3b": (SystemOneHF, "LiquidAI/d1-3B", {}),
     "d1-omni-600m": (SystemOneHF, "LiquidAI/d1-omni-600M", {"dtype": "float16"}),
     "d3-edge": (SystemOneHF, "vllm-sr/d3-edge", {}),

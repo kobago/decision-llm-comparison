@@ -11,13 +11,15 @@ import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from adapters import MODELS, ROOT  # noqa: E402
+from adapters import MODELS, RESULTS, ROOT  # noqa: E402
 
 
-def mps_mem_gib() -> float:
+def gpu_mem_gib(device: str) -> float:
     try:
         import torch
 
+        if device == "cuda":
+            return torch.cuda.max_memory_reserved() / 2**30
         return torch.mps.driver_allocated_memory() / 2**30
     except Exception:
         return 0.0
@@ -39,9 +41,9 @@ def main():
     load_s = time.perf_counter() - t
     print(f"[{args.model}] loaded in {load_s:.1f}s on {cls.device}", flush=True)
 
-    out_dir = ROOT / "results"
+    out_dir = RESULTS
     out_dir.mkdir(exist_ok=True)
-    peak_mps = mps_mem_gib()
+    peak_mps = gpu_mem_gib(cls.device)
     with (out_dir / f"{args.model}.jsonl").open("w") as f:
         for i, r in enumerate(records):
             t = time.perf_counter()
@@ -51,12 +53,13 @@ def main():
                 probs, error = {qid: {} for qid in r["questions"]}, f"{type(e).__name__}: {e}"
                 print(f"  {r['id']} error: {error}", file=sys.stderr, flush=True)
             ms = (time.perf_counter() - t) * 1000
-            peak_mps = max(peak_mps, mps_mem_gib())
+            peak_mps = max(peak_mps, gpu_mem_gib(cls.device))
             f.write(json.dumps({"id": r["id"], "ms": ms, "probs": probs, "error": error}, ensure_ascii=False) + "\n")
             if i % 20 == 0:
                 print(f"  {i + 1}/{len(records)} {r['id']} {ms:.0f}ms", flush=True)
 
-    rss_gib = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss / 2**30  # bytes on macOS
+    rss = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss  # bytes on macOS, KiB on Linux
+    rss_gib = rss / (2**30 if sys.platform == "darwin" else 2**20)
     meta = {"model": args.model, "repo": repo, "device": cls.device, "load_s": load_s,
             "peak_rss_gib": rss_gib, "peak_mps_gib": peak_mps,
             "has_probabilities": getattr(cls, "has_probabilities", True), "n": len(records)}
